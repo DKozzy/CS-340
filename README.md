@@ -20,3 +20,5 @@ Key topics in this course:
 (to be filled)
 ## What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
 (to be filled)
+## Future Applications
+(to be filled)
