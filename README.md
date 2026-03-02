@@ -21,7 +21,7 @@ This repository contains two major projects:
 - ProjectOneTestScript.ipynb
 - CS 340 README Project 1.docx
 
-In Project One, I developed a reusable Python class (AnimalShelter) that handles CRUD operations for the Austin Animal Center (AAC) Outcomes dataset stored in MongoDB.
+In Project One, I developed a reusable Python class (AnimalShelter) that handles CRUD operations for the Austin Animal Center (AAC) Outcomes dataset stored in MongoDB. This module isolates database access logic, making it reusable, maintainable, and adaptable.
 The module:
 
 - Authenticates securely using MongoDB credentials
@@ -29,13 +29,11 @@ The module:
 - Implements create(), read(), update(), and delete() methods
 - Returns clean results usable by other applications
 
-This module isolates database access logic, making it reusable, maintainable, and adaptable.
-
 **Project Two- Grazioso Salvare Dashboard**
 - ProjectTwoDashboard.ipynb
 - CS 340 README Project 2.docx
 
-Project Two builds a Dash-based interactive dashboard that connects to MongoDB only through the CRUD module developed in Project One.
+Project Two builds a Dash-based interactive dashboard that connects to MongoDB only through the CRUD module developed in Project One. All database communication is routed through the Python CRUD module, reinforcing modular architecture and separation of concerns.
 
 The dashboard includes:
 - Authentication through the CRUD module
@@ -44,8 +42,6 @@ The dashboard includes:
 - Geolocation mapping using Plotly
 - Analytical chart visualization
 - Reset functionality
-
-All database communication is routed through the Python CRUD module, reinforcing modular architecture and separation of concerns.
 
 ## Why these Projects Matter
 
