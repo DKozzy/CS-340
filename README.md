@@ -20,6 +20,7 @@ This repository contains two major projects:
 - CRUD_Python_Module.py
 - ProjectOneTestScript.ipynb
 - CS 340 README Project 1.docx
+
 In Project One, I developed a reusable Python class (AnimalShelter) that handles CRUD operations for the Austin Animal Center (AAC) Outcomes dataset stored in MongoDB.
 The module:
 
@@ -33,7 +34,9 @@ This module isolates database access logic, making it reusable, maintainable, an
 **Project Two- Grazioso Salvare Dashboard**
 - ProjectTwoDashboard.ipynb
 - CS 340 README Project 2.docx
+
 Project Two builds a Dash-based interactive dashboard that connects to MongoDB only through the CRUD module developed in Project One.
+
 The dashboard includes:
 - Authentication through the CRUD module
 - Interactive rescue-type filters (Water, Mountain/Wilderness, Disaster/Individual Tracking)
@@ -46,7 +49,16 @@ All database communication is routed through the Python CRUD module, reinforcing
 
 ## Why these Projects Matter
 
-(to be filled)
+These projects simulate a real client scenario (Grazioso Salvare) and demonstrate how backend database services and frontend interfaces should interact in professional systems.
+
+Instead of embedding raw database queries directly into the dashboard, I created a reusable access layer. This approach:
+- Improves maintainability
+- Increases security
+- Simplifies debugging
+- Allows scalability
+- Reduces duplication of database logic
+
+In industry environments, clean architecture and modular design are critical. This project reflects that structure.
 
 ## Reflection
 
