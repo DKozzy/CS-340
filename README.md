@@ -61,15 +61,42 @@ In industry environments, clean architecture and modular design are critical. Th
 
 **How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?**
 
-(to be filled)
+Separation of responsibility is necessary in order to write maintainable and adaptable programs. Project one has a special CRUD module that separates the operations of the database with the other components of the application. Rather than integrating MongoDB logic into the dashboard code, I put all the database interactions in a reusable class. This helped make Project Two much easier to construct. The dashboard just invokes functions such as read without giving thought to connection strings, authentication sources or update logic. In case the database credentials are modified, or some validation is required in the future, the changes are merely required to occur within the CRUD module. The great benefit of this design is the reusability. This CRUD module may be applicable in a web application of the future, a mobile interface, a REST API, or any other system based on Python and requires access to the same dataset. It gives a base on which it can grow even beyond this assignment.
 
 **How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?**
 
-(to be filled)
+As I went about the Grazioso Salvare requirements, I started by trying to learn the data structure and the client objectives. This client required filtered types of rescue, visualization and interactive response. That is to say that the database queries were to accommodate efficient filtering and dynamic updating. This project had a different approach to other programming tasks that were limited by either algorithms or object-oriented concepts: this project was necessary to think about the architecture of the system. I needed to be aware of database authentication, connection management, modular structure, and frontend-backend logic interaction.
+
+When creating databases in response to client requests in the future, I would:
+
+- Standardize data where it is necessary
+- Expect filtering and aggregation requirements
+- Performance design indexes
+- Seperate database logic and presentation logic
+- Plan for scalability prior to implementation
+
+To me, this project supported the significance of architecture first before writing code.
 
 **What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?**
 
-(to be filled)
+Computer scientists come up with systems that are effective and dependable in solving real-life problems. The system in this project enables Grazioso Salvare to filter and analyse animal rescue data fast to make operational decisions. The dashboard offers a better alternative to scanning spreadsheets or raw data files manually, in the sense that it offers:
+
+- Instant filtering
+- Real-time visualization
+- Location mapping
+- Organized data representation
+
+This enhances quickness when making decisions and minimizes human error. In the context of an organization that organizes efforts to rescue, it is a direct influence on the resource distribution and response time. Such projects are important as they are used to convert raw data into useful information.
 
 ## Future Applications
-(to be filled)
+
+There are several possible improvements and extensions to this project:
+
+- Multi-breed normalization to resolve inconsistent breed labeling
+- Additional aggregation pipelines for advanced reporting
+- Pagination and sorting controls for large datasets
+- Deployment as a standalone web application
+- REST API layer built on top of the CRUD module
+- Role-based authentication and access control
+
+The CRUD architecture already supports these enhancements without requiring structural redesign.
