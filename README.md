@@ -16,6 +16,7 @@ Key topics in this course:
 ## What You Will Find Here
 
 This repository contains two major projects:
+
 **Project One- Python CRUD Module**
 - CRUD_Python_Module.py
 - ProjectOneTestScript.ipynb
