@@ -1,5 +1,5 @@
 # CS-340
-Welcome to the CS-340 repository!
+Welcome to the CS-340 repository! This repository contains projects I developed as part of the CS-340 Client/Server Development course at Southern New Hampshire University. This course focused on building database-driven applications using Python and MongoDB, emphasizing secure data access, modular architecture, and interactive dashboard development. The work in this repository demonstrates the integration of backend database systems with frontend client interfaces through a structured, reusable CRUD design.
 
 ## About the Course 
 CS-340 focuses on client/server development using Python and MongoDB. The course emphasizes building database-driven applications, implementing secure data access layers, and developing interactive dashboards that rely on backend services. This course bridges backend database logic with frontend user interaction, simulating real-world full-stack development workflows.
